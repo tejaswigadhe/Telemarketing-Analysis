@@ -1,4 +1,5 @@
 #Telemarketing Analysis
+
 This project focuses on analyzing data from a bank marketing campaign using a Random Forest Classifier. The dataset (bank-full.csv) undergoes initial exploration, including displaying the first few rows, inspecting dataset properties, and summarizing missing values. Categorical features are transformed into numerical values using LabelEncoder for compatibility with machine learning models. Additionally, a correlation heatmap is used to visualize relationships among variables.
 
 The target variable (y) is separated, and the dataset is divided into training and testing subsets with an 80-20 split. Stratification ensures that class distribution is maintained. Standardization of the features is performed using StandardScaler to enhance model performance.
